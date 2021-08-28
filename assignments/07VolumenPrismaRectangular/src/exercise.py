@@ -7,11 +7,5 @@ def calculate_volume(altura):
 base = float(input('Dame la base: '))
 altura = float(input('Dame la altura: '))
 profundidad = float(input('Dame la profundidad: '))
-  
-def main():
-  #escribe tu código abajo de esta línea
-  pass
-if __name__ == '__main__':
-    main()
 
 print('El volumen del prisma es: ',calculate_volume(altura))
