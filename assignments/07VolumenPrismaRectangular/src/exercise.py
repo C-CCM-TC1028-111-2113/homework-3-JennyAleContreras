@@ -1,11 +1,11 @@
+def calculate_area(base, profundidad):
+    return (base*profundidad)
+
+def calculate_volume(altura):
+    return (calculate_area(base, profundidad)*altura)
+
 def main():
     #escribe tu código abajo de esta línea
-    
-    def calculate_area(base, profundidad):
-        return (base*profundidad)
-
-    def calculate_volume(altura):
-        return (calculate_area(base, profundidad)*altura)
 
     base = float(input('Dame la base: '))
     altura = float(input('Dame la altura: '))
