@@ -1,17 +1,19 @@
-def calculate_area(base, profundidad):
-    return (base*profundidad)
+def calculate_area(base,profundidad):
+    global area
+    area = (base*profundidad)
 
-def calculate_volume(altura):
-    return (calculate_area(base, profundidad)*altura)
+def calculate_volume(area,altura):
+    global volume
+    volume = calculate_area(base,profundidad)*altura
 
 def main():
     #escribe tu código abajo de esta línea
 
     base = float(input('Dame la base: '))
+    profundidad = float(input('Dame la profundidad: '));
     altura = float(input('Dame la altura: '))
-    profundidad = float(input('Dame la profundidad: '))
-
-    print('El volumen del prisma es:',calculate_volume(altura))
+    area = float  (base*profundidad)
+    print('El volumen del prisma es:', (area*altura*profundidad))
     pass
 
 if __name__=='__main__':
