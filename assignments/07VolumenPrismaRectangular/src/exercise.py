@@ -2,6 +2,7 @@ def calculate_area(base, profundidad):
     return (base*profundidad)
 
 def calculate_volume(altura):
+    calculate_area(base, profundidad)
     return (calculate_area(base, profundidad)*altura)
 
 def main():
