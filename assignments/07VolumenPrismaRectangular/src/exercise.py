@@ -10,10 +10,10 @@ def main():
     #escribe tu código abajo de esta línea
 
     base = float(input('Dame la base: '))
-    profundidad = float(input('Dame la altura: '));
-    altura = float(input('Dame la profundidad: '))
+    profundidad = float(input('Dame la profundidad: '));
+    altura = float(input('Dame la altura: '))
     area = float  (base*profundidad)
-    print('El volumen del prisma es:', (area*altura*profundidad))
+    print('El volumen del prisma es:', (area*profundidad))
     pass
 
 if __name__=='__main__':
